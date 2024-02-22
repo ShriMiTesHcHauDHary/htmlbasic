@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- autonumbered list  ol attribute type="A,a,i,x" -->
+    <ol>
+        <li>c++</li>
+        <ol type="A">
+            <li >cp</li>
+            <li>dynamic</li>
+        </ol>
+        <li>java</li>
+        <li>html</li>
+    </ol>
+
+    <ul>
+        <li>css</li>
+        <li>html</li>
+        <li>javacript</li>
+        <ul>
+            <li>react.js</li>
+            <li>vue.js</li>
+            <ul>
+                <li>nodejs</li>
+            </ul>
+        </ul>
+    </ul>
+
+
+    <!-- table tag -->
+    <!-- th = header, td= data -->
+    <!-- caption tag to table title -->
+    <table border="5">
+        <caption>student info</caption>
+        <tr>
+            <th colspan="5">data</th>
+        </tr>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td>mitesh</td>
+            <td>23</td>
+            <td>MCA</td>
+        </tr>
+        <tr>
+            <td>avish</td>
+            <td>20</td>
+            <td>12 class</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- <form>
+        name:<input type="text" placeholder="enter name"><br>
+        email:<input type="text" placeholder="enter email"  required ><br>
+        password:<input type="password" placeholder="password"><br>
+        <input type="submit">
+    </form> -->
+
+    <form method="post">
+        <label for="username">username :</label>
+        <input type="text" 
+        id="username" placeholder="name" required="true" ><br>
+        <label for="password">password :</label>
+        <input type="password" id="user_password" ><br>
+
+        <label for="date_i">date :</label>
+        <input type="date" id="date_i"><br>
+
+        <label for="user_file">file :</label>
+        <input type="file"> <br>
+        <input type="color"> <br>
+        range : <input type="range"> <br>
+        <input type="submit">
+    </form>
+
+
+    <form>
+        <label for="male">male :</label>
+        <input type="radio" id="male" value="male" name="gender"> <br>
+
+        <label for="female">female :</label>
+        <input type="radio" id="female" value="female" name="gender"> <br>
+
+        <label for="other">other :</label>
+        <input type="radio" id="other" value="other" name="gender"> <br>
+    </form>
+
+
+    <form>
+        <label id="c">c :</label>
+        <input type="checkbox" name="language" id="c" value="c"> <br>
+        <label id="c">java :</label>
+        <input type="checkbox" name="language" id="java" value="java"> <br>
+        <label id="c">c++ :</label>
+        <input type="checkbox" name="language" id="c++" value="c++"> <br>
+    </form>
+
+    <form for="fruits">
+        <select id="fruits" name="fruits">
+            <option value="apple">apple</option>
+            <option value="banana">banana</option>
+            <option value="orange">orange</option>
+        </select>
+    </form>
+    <hr>
+
+
+    <form>
+        <label id="about_user">about you :</label>
+        <textarea id="about_user" name="usern" rows="4"  cols="40">
+            write.....
+        </textarea>
+    </form>
+
+
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y8v4S0sZFjc?si=eWHSl_qIvYaKDZUy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe width="560" height="315"
+    src="https://leetcode.com/problemset/?page=1"></iframe>
+</body>
+</html>
